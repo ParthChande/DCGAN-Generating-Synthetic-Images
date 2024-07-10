@@ -36,3 +36,4 @@ pip install tensorflow numpy matplotlib tqdm imageio
 - Create GIF: Create a GIF to visualize the training process.
   
 This process results in a trained DCGAN that can generate synthetic images similar to the real images in the dataset.
+![image](https://github.com/ParthChande/DCGAN-Generating-Synthetic-Images/assets/119730313/3380e47a-57a1-46f4-93aa-688e3e84d0e4)
