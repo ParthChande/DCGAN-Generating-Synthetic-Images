@@ -3,6 +3,8 @@
 
 This project demonstrates the implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) using TensorFlow and Keras to generate synthetic images of Fashion MNIST dataset.
 
+You can learn more about DCGAN in More Info.imd
+
 ## Requirements
 
 - TensorFlow
