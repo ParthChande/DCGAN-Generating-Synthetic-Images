@@ -48,12 +48,12 @@ Repeat the following steps for a number of epochs (complete passes through the d
 
 # Architecture
 
-- Generator Architecture:
+1. Generator Architecture:
  -  Uses transposed convolutional layers (Conv2DTranspose) to upsample the input noise.
  -  Applies batch normalization (BatchNormalization) to stabilize training.
  -  Uses ReLU activations in all layers except the output layer, which uses Tanh activation to produce image pixel values in the range [-1, 1].
   
-- Discriminator Architecture:
+2. Discriminator Architecture:
  -  Uses convolutional layers (Conv2D) to downsample the input images.
  -  Applies leaky ReLU activations (LeakyReLU) to avoid dying ReLU problem.
  -  Uses dropout (Dropout) to prevent overfitting.
